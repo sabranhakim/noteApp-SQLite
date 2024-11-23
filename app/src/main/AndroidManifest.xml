@@ -13,6 +13,12 @@
         android:theme="@style/Theme.NoteAppsSQLite"
         tools:targetApi="31">
         <activity
+            android:name=".screen.UpdateNoteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailNote"
+            android:exported="false" />
+        <activity
             android:name=".screen.AddNoteActivity"
             android:exported="false" />
         <activity
